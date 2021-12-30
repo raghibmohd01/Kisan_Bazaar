@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/registration_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/rammetto_one"
+        android:text="Sign Up"
+        android:textColor="#53A894"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/txtcorner"
+        android:drawableLeft="@drawable/ic_person"
+        android:fontFamily="@font/poppins_bold"
+        android:hint=" Enter your user name"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_mail"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="18dp"
+        android:layout_below="@+id/edt_username"
+        android:background="@drawable/txtcorner"
+        android:drawableLeft="@drawable/ic_email"
+        android:fontFamily="@font/poppins_bold"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_mobnumber"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edt_mail"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/txtcorner"
+        android:drawableLeft="@drawable/ic_mobile"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="  mobile no."
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/edt_pswrd"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edt_mobnumber"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/txtcorner"
+        android:drawableLeft="@drawable/ic_password"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="  password "
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_cnfrmpswrd"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edt_pswrd"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/txtcorner"
+        android:drawableLeft="@drawable/ic_password"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="  confirm password "
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_farmerList"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edt_cnfrmpswrd"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/txtcorner"
+        android:drawableLeft="@drawable/ic_list"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="  Farmer list"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edt_farmerList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btncorner"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins"
+        android:text="--------------------or--------------------"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/txt_google"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt_or"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/googlecorner"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Continue with Google"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img_google"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txt_or"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/google_logo" />
+
+
+</RelativeLayout>

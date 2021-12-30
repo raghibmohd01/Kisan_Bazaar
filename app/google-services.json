@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967194509208",
+    "project_id": "kisan-bazaar-b1720",
+    "storage_bucket": "kisan-bazaar-b1720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967194509208:android:bba34336ab999883b275ed",
+        "android_client_info": {
+          "package_name": "com.mtr.kisanbazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967194509208-e8d5f5a2khrn8cv5ubfvmu5uehqcv98g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU3xrZrG11lWIcw-YqfdeZqroVrsQ1dFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967194509208-e8d5f5a2khrn8cv5ubfvmu5uehqcv98g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
